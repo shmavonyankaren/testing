@@ -1,13 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="code-container">
+      <div class="code-header">
+        <span class="language">JavaScript</span>
+
+        <button class="copy-btn" type="button">
+          <span class="copy-icon"></span>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+
+      <pre><code>
+<span class="kw">function</span> <span class="fn">greet</span>(<span class="var">name</span>) {
+  <span class="kw">return</span> <span class="str">"Hello "</span> + <span class="var">name</span>;
+}
+  </code></pre>
+    </div>
+  </body>
 </html>
